@@ -17,7 +17,7 @@ function App() {
   }
 
   useEffect(() => {
-    document.title = 'Iflaq Khurshid — Frontend Developer'
+    document.title = 'Iflaq Khurshid — Full Stack Developer'
 
     const dot = document.getElementById('curDot')
     const ring = document.getElementById('curRing')
@@ -131,7 +131,7 @@ function App() {
             <br />
             <span className="line2">KHURSHID</span>
           </h1>
-          <div className="hero-role">Frontend Developer</div>
+          <div className="hero-role">Full Stack Developer</div>
           <p className="hero-bio">
             Computer Science engineer from Kashmir building production-grade web applications.
             Passionate about crafting seamless user experiences backed by robust, scalable backends.
