@@ -57,6 +57,10 @@ const skillGroups = [
     title: 'Tools & Infrastructure',
     skills: ['Git', 'GitHub', 'Netlify', 'Render', 'Postman', 'VS Code'],
   },
+  {
+    title: 'AI-Assisted Development',
+    skills: ['Cursor', 'Claude', 'ChatGPT'],
+  },
 ]
 
 const experience = [
@@ -119,6 +123,10 @@ function App() {
             handle real software engineering tasks. I work with{' '}
             <strong>TypeScript, React, Node.js,</strong> and databases to turn useful
             ideas into dependable software.
+          </p>
+          <p>
+            I use <strong>Cursor, Claude, and ChatGPT</strong> as part of an
+            AI-assisted workflow for faster prototyping, debugging, and iteration.
           </p>
           <p>
             I&apos;m open to <strong>freelance projects, collaborations,</strong> and{' '}
