@@ -12,7 +12,9 @@ import avatar from './assets/avatar-anime.png'
 import habitatLogo from './assets/habitat-logo.svg'
 import canvasoPreview from './assets/project-canvaso.png'
 import coursellPreview from './assets/project-coursell.png'
+import aiToolsDictionaryPreview from './assets/project-ai-tools-dictionary.png'
 import jewelleryAtelierPreview from './assets/project-jewellery-atelier.png'
+import yuvaGroupPreview from './assets/project-yuva-group.png'
 import zenopsPreview from './assets/project-zenops.png'
 import snapsecLogo from './assets/snapsec-logo.png'
 
@@ -50,6 +52,22 @@ const projects = [
     stack: ['Frontend', 'Responsive UI', 'CSS', 'Netlify'],
     live: 'https://endearing-travesseiro-e93d98.netlify.app/',
     image: jewelleryAtelierPreview,
+  },
+  {
+    name: 'Yuva Group',
+    description:
+      'A frontend-only real-estate website for showcasing residential projects, amenities, galleries, and enquiry actions.',
+    stack: ['Frontend', 'Responsive UI', 'Real Estate', 'Netlify'],
+    live: 'https://yuvagroupow.netlify.app/',
+    image: yuvaGroupPreview,
+  },
+  {
+    name: 'AI Tools Dictionary',
+    description:
+      'A frontend-only AI tool discovery interface with searchable categories, featured tools, and comparison-oriented browsing.',
+    stack: ['Frontend', 'Responsive UI', 'AI Tools', 'Netlify'],
+    live: 'https://aitoolsdictionary.netlify.app/',
+    image: aiToolsDictionaryPreview,
   },
 ]
 
