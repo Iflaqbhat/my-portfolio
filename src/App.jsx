@@ -64,7 +64,7 @@ const experience = [
     company: 'Habitat Inc.',
     role: 'AI Code Evaluator',
     location: 'Remote',
-    date: 'Nov 2025 - Dec 2025',
+    date: 'Nov 2025 - May 2026',
     logo: habitatLogo,
     detail:
       'Created rigorous coding evaluations from real open-source pull requests. I analyzed production changes, wrote precise task specifications, prepared golden solution patches and test patches, and validated edge cases to measure how reliably AI coding agents could understand and modify unfamiliar codebases.',
@@ -73,7 +73,7 @@ const experience = [
     company: 'SnapSec.co',
     role: 'Frontend Developer Intern',
     location: 'Remote',
-    date: 'Jan 2025 - Mar 2025',
+    date: 'Mar 2025 - May 2025',
     logo: snapsecLogo,
     detail:
       'Built responsive React and Tailwind interfaces for a cybersecurity product, developed reusable UI components, improved layouts across screen sizes, and collaborated with a remote team to turn product requirements into clear, usable frontend experiences.',
