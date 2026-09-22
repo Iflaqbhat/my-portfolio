@@ -12,6 +12,7 @@ import avatar from './assets/avatar-anime.png'
 import habitatLogo from './assets/habitat-logo.svg'
 import canvasoPreview from './assets/project-canvaso.png'
 import coursellPreview from './assets/project-coursell.png'
+import jewelleryAtelierPreview from './assets/project-jewellery-atelier.png'
 import zenopsPreview from './assets/project-zenops.png'
 import snapsecLogo from './assets/snapsec-logo.png'
 
@@ -41,6 +42,14 @@ const projects = [
     stack: ['HTML', 'CSS', 'JavaScript', 'Netlify'],
     live: 'https://zen0ps.netlify.app/',
     image: zenopsPreview,
+  },
+  {
+    name: 'Jewellery Atelier',
+    description:
+      'A frontend-only premium jewellery catalogue with collection browsing, bridal storytelling, and a responsive editorial presentation.',
+    stack: ['Frontend', 'Responsive UI', 'CSS', 'Netlify'],
+    live: 'https://endearing-travesseiro-e93d98.netlify.app/',
+    image: jewelleryAtelierPreview,
   },
 ]
 
