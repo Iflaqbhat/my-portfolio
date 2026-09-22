@@ -190,11 +190,6 @@ main { padding-top: 114px; }
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 .project-card:hover { transform: translateY(-3px); box-shadow: 0 14px 38px rgba(0, 0, 0, 0.09); }
-.project-card:last-child {
-  grid-column: 1 / -1;
-  width: calc((100% - 28px) / 2);
-  justify-self: center;
-}
 .project-preview { aspect-ratio: 16 / 10; display: block; overflow: hidden; border-bottom: 1px solid var(--border); background: var(--soft); }
 .project-preview img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: top; transition: transform 300ms ease; }
 .project-card:hover .project-preview img { transform: scale(1.025); }
@@ -240,7 +235,6 @@ footer { padding: 70px 0 36px; color: var(--muted); font-size: 13px; text-align:
   .section-block, .projects-section { margin-top: 56px; }
   .section-title h2, .projects-section > h2 { font-size: 26px; }
   .project-grid { grid-template-columns: 1fr; gap: 24px; }
-  .project-card:last-child { grid-column: auto; width: 100%; }
   .experience-row { grid-template-columns: 40px minmax(0, 1fr); gap: 12px; }
   .company-mark { width: 40px; height: 40px; }
   .experience-heading { align-items: flex-start; flex-direction: column; gap: 5px; }
